@@ -15,11 +15,14 @@ qué sirve.
 ### 1.1 Add
 La función Add consiste en sumar dos números
 'a' y 'b'. Por ejemplo:
+
+##### Código:
     
     from Math_genius import *
     Add(250, 500)
 
-  Salida: 750
+##### Salida: 
+    750
 
 ### 1.2 Substract
 La función Substract consiste en restar dos
