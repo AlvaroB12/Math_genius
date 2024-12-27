@@ -75,8 +75,8 @@ devuelve un mensaje de error.
 
 ## Tabla de Contenidos
 
-1. [Descripción](#-descripción)
-2. [Instalación](#-instalación)
+1. [Descripción](#-Descripción)
+2. [Instalación](#-Instalación)
 3. [Uso](#-uso)
 4. [Módulos y Funciones](#-módulos-y-funciones)
    - [Geometría](#-geometría)
@@ -93,7 +93,7 @@ devuelve un mensaje de error.
 
 ---
 
-## ✨ Descripción
+## Descripción
 
 Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Desde fórmulas geométricas hasta análisis estadístico, esta librería es la herramienta definitiva para resolver problemas matemáticos.
 
@@ -102,15 +102,16 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 ---
 
-## 🔧 Instalación
+## Instalación
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu_usuario/math-genius.git
+   git clone https://github.com/AlvaroB12/math-genius.git
 
-2. Instalar dependencias:
+2. **Instalar dependencias:**
 
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 
 3. ¡Listo! Ahora puedes comenzar a usar Math Genius.
@@ -120,7 +121,7 @@ pip install -r requirements.txt
 
 ---
 
-🚀 Uso
+## Uso
 
 from math_genius.geometry import triangle_area_by_points
 from math_genius.trigonometry import pythagoras
@@ -238,7 +239,7 @@ print(sd)  # Salida: 1.414
 
 ---
 
-∞ Teoría de Conjuntos
+## Teoría de Conjuntos
 
 Funciones principales:
 
@@ -258,7 +259,7 @@ print(result)  # Salida: {2}
 
 ---
 
-🤝 Contribución
+## Contribución
 
 ¡Estamos abiertos a nuevas ideas! Para contribuir:
 
