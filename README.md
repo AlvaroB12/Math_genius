@@ -1,84 +1,14 @@
-# Math_genius
-## Introducción
-Math_genius es una librería de 
-python que abarca todo el ámbito
-de las matemáticas, desde 
-operaciones simples hasta 
-integrales o estadísticas. 
-Este manual está dividido por 
-cada apartado que incluye esta 
-librería, incluyendo todas las 
-funciones que contienen y para 
-qué sirve.
-
-## 1. Aritmética:
-
-### 1.1 Add
-La función Add consiste en sumar dos números
-'a' y 'b'. Por ejemplo:
-
-#### Código:
-    
-    from Math_genius import *
-    Add(250, 500)
-
-#### Salida: 
-750
-
-### 1.2 Substract
-La función Substract consiste en restar dos
-números 'a' y 'b'. Por ejemplo:
-
-#### Código:
-
-    from Math_genius import *
-    Substract(235, 87)
-
-#### Salida: 
-123
-
-### 1.3 Multiply
-La función Multiply regresa el producto de dos
-números 'a' y 'b'. Por ejemplo:
-
-#### Código:
-
-     from Math_genius import *
-     Multiply(25, 45)
-
-#### Salida: 
-1125
-
-### 1.4 Divide
-La función Divide incluye el cociente entre
-dos números 'a' y 'b'. Por ejemplo:
-
-#### Código:
-
-     from Math_genius import *
-     Divide(100, 5)
-
-#### Salida: 
-20
-   
-Además, si el número 'b' es equivalente a 0, 
-devuelve un mensaje de error.
-
-
----
-
-# 🌟 Math Genius Library
+# **Math Genius Library**
 
 **Math Genius** es una poderosa librería de Python diseñada para realizar cálculos matemáticos avanzados de manera sencilla y eficiente. Ideal para estudiantes, académicos y desarrolladores, incluye herramientas para geometría, trigonometría, álgebra, estadística, probabilidad y mucho más.
 
 ---
 
-## Tabla de Contenidos
+## **Tabla de Contenidos**
 
 1. [Descripción](#-Descripción)
 2. [Instalación](#-Instalación)
-3. [Uso](#-uso)
-4. [Módulos y Funciones](#-módulos-y-funciones)
+3. [Módulos y Funciones](#-módulos-y-funciones)
    - [Geometría](#-geometría)
    - [Áreas y Volúmenes](#-áreas-y-volúmenes)
    - [Trigonometría](#-trigonometría)
@@ -87,13 +17,13 @@ devuelve un mensaje de error.
    - [Probabilidad](#-probabilidad)
    - [Estadística](#-estadística)
    - [Teoría de Conjuntos](#-teoría-de-conjuntos)
-5. [Contribución](#-contribución)
-6. [Licencia](#-licencia)
-7. [Créditos](#-créditos)
+4. [Contribución](#-contribución)
+5. [Licencia](#-licencia)
+6. [Créditos](#-créditos)
 
 ---
 
-## Descripción
+## **Descripción**
 
 Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Desde fórmulas geométricas hasta análisis estadístico, esta librería es la herramienta definitiva para resolver problemas matemáticos.
 
@@ -102,7 +32,7 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 ---
 
-## Instalación
+## **Instalación**
 
 1. **Clonar el repositorio:**
    ```bash
@@ -116,30 +46,11 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 3. ¡Listo! Ahora puedes comenzar a usar Math Genius.
 
-
-
-
 ---
 
-## Uso
+## **Módulos y Funciones**
 
-from math_genius.geometry import triangle_area_by_points
-from math_genius.trigonometry import pythagoras
-
-# Área de un triángulo
-area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
-print(f"Área del triángulo: {area}")
-
-# Hipotenusa de un triángulo
-hipotenusa = pythagoras(a=3, b=4)
-print(f"Hipotenusa: {hipotenusa}")
-
-
----
-
-📚 Módulos y Funciones
-
-🧮 Geometría
+### **1. Geometría**
 
 Funciones principales:
 
