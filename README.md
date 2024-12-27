@@ -92,7 +92,7 @@ print(volume)  # Salida: 113.097
 
 ### **3. Trigonometría**
 
-//Funciones principales:
+// Funciones principales: //
 
 pythagoras(a, b):
 Calcula la hipotenusa de un triángulo rectángulo.
