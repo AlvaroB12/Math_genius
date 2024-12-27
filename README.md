@@ -22,7 +22,7 @@ La función Add consiste en sumar dos números
     Add(250, 500)
 
 #### Salida: 
-    750
+750
 
 ### 1.2 Substract
 La función Substract consiste en restar dos
