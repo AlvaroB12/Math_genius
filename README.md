@@ -16,12 +16,12 @@ qué sirve.
 La función Add consiste en sumar dos números
 'a' y 'b'. Por ejemplo:
 
-##### Código:
+#### Código:
     
     from Math_genius import *
     Add(250, 500)
 
-##### Salida: 
+#### Salida: 
     750
 
 ### 1.2 Substract
