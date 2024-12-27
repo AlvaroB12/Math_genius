@@ -64,11 +64,6 @@ dos números 'a' y 'b'. Por ejemplo:
 Además, si el número 'b' es equivalente a 0, 
 devuelve un mensaje de error.
 
-## 2. :
-### 
-    
-Voy a crear un README.md completo y bien organizado para tu proyecto Math Genius, incluyendo una descripción detallada de todas las funciones, ejemplos y secciones explicativas. Aquí tienes el resultado:
-
 
 ---
 
@@ -78,7 +73,7 @@ Voy a crear un README.md completo y bien organizado para tu proyecto Math Genius
 
 ---
 
-## 📖 Tabla de Contenidos
+## Tabla de Contenidos
 
 1. [Descripción](#-descripción)
 2. [Instalación](#-instalación)
