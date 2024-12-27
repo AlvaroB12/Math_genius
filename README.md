@@ -70,7 +70,7 @@ print(dist)  # Salida: 5.0
 
 ---
 
-📐 Áreas y Volúmenes
+### **2. Áreas y Volúmenes**
 
 Funciones principales:
 
@@ -90,9 +90,9 @@ print(volume)  # Salida: 113.097
 
 ---
 
-📏 Trigonometría
+### **3. Trigonometría**
 
-Funciones principales:
+//Funciones principales:
 
 pythagoras(a, b):
 Calcula la hipotenusa de un triángulo rectángulo.
