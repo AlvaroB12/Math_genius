@@ -43,7 +43,6 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
    ```bash
    pip install -r requirements.txt
 
-
 3. ¡Listo! Ahora puedes comenzar a usar Math Genius.
 
 ---
@@ -52,19 +51,21 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 ### **1. Geometría**
 
-Funciones principales:
+**Funciones principales:**
 
-triangle_area_by_points(p1, p2, p3):
+####triangle_area_by_points(p1, p2, p3):
 Calcula el área de un triángulo a partir de tres puntos en el plano.
 
-area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
-print(area)  # Salida: 6.0
+    ```python
+    area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
+    print(area)  # Salida: 6.0
 
-distance(p1, p2):
+####distance(p1, p2):
 Calcula la distancia entre dos puntos.
 
-dist = distance((0, 0), (3, 4))
-print(dist)  # Salida: 5.0
+    ```python
+    dist = distance((0, 0), (3, 4))
+    print(dist)  # Salida: 5.0
 
 
 
