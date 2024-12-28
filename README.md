@@ -6,9 +6,9 @@
 
 ## **Tabla de Contenidos**
 
-**1.** [Descripción](#-)
-**2.** [Instalación](#-)
-**3.** [Módulos y Funciones](#-)
+1. [Descripción](#-)
+2. [Instalación](#-)
+3. [Módulos y Funciones](#-)
  - 3.1 [Geometría](#-)
  - 3.2 [Áreas y Volúmenes](#-)
  - 3.3 [Trigonometría](#-)
@@ -17,9 +17,9 @@
  - 3.6 [Probabilidad](#-)
  - 3.7 [Estadística](#-)
  - 3.8 [Teoría de Conjuntos](#-)
-**4.** [Contribución](#-)
-**5.** [Licencia](#-)
-**6.** [Créditos](#-)
+4. [Contribución](#-)
+5. [Licencia](#-)
+6. [Créditos](#-)
 
 ---
 
@@ -35,12 +35,11 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 ## **Instalación**
 
 **1. Clonar el repositorio:**
-   ```bash
+
    git clone https://github.com/AlvaroB12/math-genius.git
 
 **2. Instalar dependencias:**
 
-   ```bash
    pip install -r requirements.txt
 
 **3.** ¡Listo! Ahora puedes comenzar a usar Math Genius.
@@ -131,14 +130,15 @@ Suma dos números.
     result = add(5, 3)
     print(result)  
 
-**Salida:** 8
+##### **Salida:** 8
 
 #### subtract(a, b):
 Resta dos números.
 
     result = subtract(10, 4)
-    print(result)  
-**Salida:** 6
+    print(result)
+  
+##### **Salida:** 6
 
 
 
@@ -154,7 +154,7 @@ Calcula la media de una lista de datos.
     avg = mean([1, 2, 3, 4, 5])
     print(avg)  
 
-**Salida:** 3.0
+##### **Salida:** 3.0
 
 #### standard_deviation(data):
 Calcula la desviación estándar.
@@ -162,7 +162,7 @@ Calcula la desviación estándar.
     sd = standard_deviation([1, 2, 3, 4, 5])
     print(sd)  
 
-**Salida:** 1.414
+##### **Salida:** 1.414
 
 
 
@@ -176,13 +176,17 @@ Funciones principales:
 Devuelve la unión de dos conjuntos.
 
     result = union({1, 2}, {2, 3})
-    print(result)  # Salida: {1, 2, 3}
+    print(result)  
+
+##### **Salida:** {1, 2, 3}
 
 #### intersection(set1, set2):
 Devuelve la intersección de dos conjuntos.
 
     result = intersection({1, 2}, {2, 3})
-    print(result)  # Salida: {2}
+    print(result)  
+
+##### **Salida:** {2}
 
 
 
