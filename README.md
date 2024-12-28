@@ -6,7 +6,7 @@
 
 ## **Tabla de Contenidos**
 
-1. [Descripción](#-Descripción)
+1. [Descripción](##-Descripción)
 2. [Instalación](#-Instalación)
 3. [Módulos y Funciones](#-módulos-y-funciones)
    - [Geometría](#-geometría)
@@ -57,13 +57,17 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 Calcula el área de un triángulo a partir de tres puntos en el plano.
 
     area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
-    print(area)  # Salida: 6.0
+    print(area)  
+
+**Salida:** 6.0
 
 #### distance(p1, p2):
 Calcula la distancia entre dos puntos.
 
     dist = distance((0, 0), (3, 4))
-    print(dist)  # Salida: 5.0
+    print(dist)  
+
+**Salida:** 5.0
 
 
 
@@ -71,19 +75,23 @@ Calcula la distancia entre dos puntos.
 
 ### **2. Áreas y Volúmenes**
 
-Funciones principales:
+**Funciones principales:**
 
-cylinder_volume(radius, height):
+#### cylinder_volume(radius, height):
 Calcula el volumen de un cilindro.
 
-volume = cylinder_volume(radius=5, height=10)
-print(volume)  # Salida: 785.398
+    volume = cylinder_volume(radius=5, height=10)
+    print(volume)  
 
-sphere_volume(radius):
+**Salida:** 785.398
+
+#### sphere_volume(radius):
 Calcula el volumen de una esfera.
 
-volume = sphere_volume(radius=3)
-print(volume)  # Salida: 113.097
+    volume = sphere_volume(radius=3)
+    print(volume)  
+
+**Salida:** 113.097
 
 
 
@@ -91,19 +99,23 @@ print(volume)  # Salida: 113.097
 
 ### **3. Trigonometría**
 
-/ Funciones principales: /
+**Funciones principales:**
 
-pythagoras(a, b):
+#### pythagoras(a, b):
 Calcula la hipotenusa de un triángulo rectángulo.
 
-hypotenuse = pythagoras(a=3, b=4)
-print(hypotenuse)  # Salida: 5.0
+    hypotenuse = pythagoras(a=3, b=4)
+    print(hypotenuse) 
+ 
+**Salida:** 5.0
 
-sin(degrees):
+#### sin(degrees):
 Calcula el seno de un ángulo dado en grados.
 
-result = sin(30)
-print(result)  # Salida: 0.5
+    result = sin(30)
+    print(result)  
+
+**Salida:** 0.5
 
 
 
