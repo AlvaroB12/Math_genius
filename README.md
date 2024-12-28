@@ -53,17 +53,15 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 **Funciones principales:**
 
-####triangle_area_by_points(p1, p2, p3):
+#### triangle_area_by_points(p1, p2, p3):
 Calcula el área de un triángulo a partir de tres puntos en el plano.
 
-    ```py
     area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
     print(area)  # Salida: 6.0
 
-####distance(p1, p2):
+#### distance(p1, p2):
 Calcula la distancia entre dos puntos.
 
-    ```python
     dist = distance((0, 0), (3, 4))
     print(dist)  # Salida: 5.0
 
