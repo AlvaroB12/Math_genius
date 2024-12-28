@@ -56,7 +56,7 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 ####triangle_area_by_points(p1, p2, p3):
 Calcula el área de un triángulo a partir de tres puntos en el plano.
 
-    ```python
+    ```py
     area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
     print(area)  # Salida: 6.0
 
