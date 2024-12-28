@@ -7,10 +7,10 @@
 ## **Tabla de Contenidos**
 
 1. [Descripción](##-Descripción)
-2. [Instalación](#-Instalación)
-3. [Módulos y Funciones](#-módulos-y-funciones)
-   - [Geometría](#-geometría)
-   - [Áreas y Volúmenes](#-áreas-y-volúmenes)
+2. [Instalación](##-Instalación)
+3. [Módulos y Funciones](##-Módulos-y-funciones)
+   - [Geometría](###-1.-Geometría)
+   - [Áreas y Volúmenes](###-áreas-y-volúmenes)
    - [Trigonometría](#-trigonometría)
    - [Aritmética](#-aritmética)
    - [Álgebra](#-álgebra)
