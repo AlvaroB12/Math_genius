@@ -9,14 +9,13 @@
 1. [Descripción](#-)
 2. [Instalación](#-)
 3. [Módulos y Funciones](#-)
- - 3.1 [Geometría](#-)
- - 3.2 [Áreas y Volúmenes](#-)
- - 3.3 [Trigonometría](#-)
- - 3.4 [Aritmética](#-)
- - 3.5 [Álgebra](#-)
- - 3.6 [Probabilidad](#-)
- - 3.7 [Estadística](#-)
- - 3.8 [Teoría de Conjuntos](#-)
+ -  [Geometría](#-)
+ -  [Áreas y Volúmenes](#-)
+ -  [Trigonometría](#-)
+ -  [Aritmética](#-)
+ -  [Probabilidad](#-)
+ -  [Estadística](#-)
+ -  [Teoría de Conjuntos](#-)
 4. [Contribución](#-)
 5. [Licencia](#-)
 6. [Créditos](#-)
@@ -36,7 +35,7 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 **1. Clonar el repositorio:**
 
-   git clone https://github.com/AlvaroB12/math-genius.git
+    git clone   https://github.com/AlvaroB12/math-genius.git
 
 **2. Instalar dependencias:**
 
@@ -144,7 +143,7 @@ Resta dos números.
 
 ---
 
-### **5. Probabilidad y Estadística*"
+### **5. Probabilidad y Estadística**
 
 Funciones principales:
 
