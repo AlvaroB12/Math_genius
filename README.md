@@ -6,9 +6,9 @@
 
 ## **Tabla de Contenidos**
 
-1. [Descripción](##-**Descripción**)
-2. [Instalación](#-)
-3. [Módulos y Funciones](#-)
+**1.** [Descripción](#-)
+**2.** [Instalación](#-)
+**3.** [Módulos y Funciones](#-)
  - 3.1 [Geometría](#-)
  - 3.2 [Áreas y Volúmenes](#-)
  - 3.3 [Trigonometría](#-)
@@ -17,9 +17,9 @@
  - 3.6 [Probabilidad](#-)
  - 3.7 [Estadística](#-)
  - 3.8 [Teoría de Conjuntos](#-)
-4. [Contribución](#-)
-5. [Licencia](#-)
-6. [Créditos](#-)
+**4.** [Contribución](#-)
+**5.** [Licencia](#-)
+**6.** [Créditos](#-)
 
 ---
 
@@ -34,16 +34,16 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 ## **Instalación**
 
-1. **Clonar el repositorio:**
+**1. Clonar el repositorio:**
    ```bash
    git clone https://github.com/AlvaroB12/math-genius.git
 
-2. **Instalar dependencias:**
+**2. Instalar dependencias:**
 
    ```bash
    pip install -r requirements.txt
 
-3. ¡Listo! Ahora puedes comenzar a usar Math Genius.
+**3.** ¡Listo! Ahora puedes comenzar a usar Math Genius.
 
 ---
 
@@ -51,7 +51,7 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 ### **1. Geometría**
 
-**Funciones principales:**
+Funciones principales:
 
 #### triangle_area_by_points(p1, p2, p3):
 Calcula el área de un triángulo a partir de tres puntos en el plano.
@@ -59,7 +59,7 @@ Calcula el área de un triángulo a partir de tres puntos en el plano.
     area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
     print(area)  
 
-**Salida:** 6.0
+##### **Salida:** 6.0
 
 #### distance(p1, p2):
 Calcula la distancia entre dos puntos.
@@ -67,7 +67,7 @@ Calcula la distancia entre dos puntos.
     dist = distance((0, 0), (3, 4))
     print(dist)  
 
-**Salida:** 5.0
+##### **Salida:** 5.0
 
 
 
@@ -75,7 +75,7 @@ Calcula la distancia entre dos puntos.
 
 ### **2. Áreas y Volúmenes**
 
-**Funciones principales:**
+Funciones principales:
 
 #### cylinder_volume(radius, height):
 Calcula el volumen de un cilindro.
@@ -83,7 +83,7 @@ Calcula el volumen de un cilindro.
     volume = cylinder_volume(radius=5, height=10)
     print(volume)  
 
-**Salida:** 785.398
+##### **Salida:** 785.398
 
 #### sphere_volume(radius):
 Calcula el volumen de una esfera.
@@ -91,7 +91,7 @@ Calcula el volumen de una esfera.
     volume = sphere_volume(radius=3)
     print(volume)  
 
-**Salida:** 113.097
+##### **Salida:** 113.097
 
 
 
@@ -99,7 +99,7 @@ Calcula el volumen de una esfera.
 
 ### **3. Trigonometría**
 
-**Funciones principales:**
+Funciones principales:
 
 #### pythagoras(a, b):
 Calcula la hipotenusa de un triángulo rectángulo.
@@ -107,7 +107,7 @@ Calcula la hipotenusa de un triángulo rectángulo.
     hypotenuse = pythagoras(a=3, b=4)
     print(hypotenuse) 
  
-**Salida:** 5.0
+##### **Salida:** 5.0
 
 #### sin(degrees):
 Calcula el seno de un ángulo dado en grados.
@@ -115,100 +115,110 @@ Calcula el seno de un ángulo dado en grados.
     result = sin(30)
     print(result)  
 
-**Salida:** 0.5
+##### **Salida:** 0.5
 
 
 
 ---
 
-➕ Aritmética
+### **4. Aritmética**
 
 Funciones principales:
 
-add(a, b):
+#### add(a, b):
 Suma dos números.
 
-result = add(5, 3)
-print(result)  # Salida: 8
+    result = add(5, 3)
+    print(result)  
 
-subtract(a, b):
+**Salida:** 8
+
+#### subtract(a, b):
 Resta dos números.
 
-result = subtract(10, 4)
-print(result)  # Salida: 6
+    result = subtract(10, 4)
+    print(result)  
+**Salida:** 6
 
 
 
 ---
 
-📊 Probabilidad y Estadística
+### **5. Probabilidad y Estadística*"
 
 Funciones principales:
 
-mean(data):
+#### mean(data):
 Calcula la media de una lista de datos.
 
-avg = mean([1, 2, 3, 4, 5])
-print(avg)  # Salida: 3.0
+    avg = mean([1, 2, 3, 4, 5])
+    print(avg)  
 
-standard_deviation(data):
+**Salida:** 3.0
+
+#### standard_deviation(data):
 Calcula la desviación estándar.
 
-sd = standard_deviation([1, 2, 3, 4, 5])
-print(sd)  # Salida: 1.414
+    sd = standard_deviation([1, 2, 3, 4, 5])
+    print(sd)  
+
+**Salida:** 1.414
 
 
 
 ---
 
-## Teoría de Conjuntos
+### **6. Teoría de Conjuntos**
 
 Funciones principales:
 
-union(set1, set2):
+#### union(set1, set2):
 Devuelve la unión de dos conjuntos.
 
-result = union({1, 2}, {2, 3})
-print(result)  # Salida: {1, 2, 3}
+    result = union({1, 2}, {2, 3})
+    print(result)  # Salida: {1, 2, 3}
 
-intersection(set1, set2):
+#### intersection(set1, set2):
 Devuelve la intersección de dos conjuntos.
 
-result = intersection({1, 2}, {2, 3})
-print(result)  # Salida: {2}
+    result = intersection({1, 2}, {2, 3})
+    print(result)  # Salida: {2}
 
 
 
 ---
 
-## Contribución
+## **Contribución**
 
 ¡Estamos abiertos a nuevas ideas! Para contribuir:
 
-1. Haz un fork del proyecto.
+**1.** Haz un fork del proyecto.
 
 
-2. Crea una rama: git checkout -b nueva-funcion.
+**2.** Crea una rama: 
+
+    ```bash
+    git checkout -b nueva-funcion.
 
 
-3. Realiza tus cambios.
+**3.** Realiza tus cambios.
 
 
-4. Abre un pull request detallando las modificaciones.
+**4.** Abre un pull request detallando las modificaciones.
 
 
 
 
 ---
 
-📜 Licencia
+## **Licencia**
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 
 ---
 
-🙌 Créditos
+## **Créditos**
 
 Creado con cariño por Álvaro Bravo López .
 
