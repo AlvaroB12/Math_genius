@@ -46,3 +46,25 @@ def nth_fibonacci(n):
     for _ in range(n):
         a, b = b, a + b
     return a
+
+def divisors(n):
+    """Devuelve los divisores de un número entero."""
+    return [i for i in range(1, n + 1) if n % i == 0]
+
+def prime_factorization(n):
+    """Devuelve la factorización en primos de un número."""
+    factors = []
+    d = 2
+    while n > 1:
+        while n % d == 0:
+            factors.append(d)
+            n //= d
+        d += 1
+    return factors
+
+def modular_inverse(a, m):
+    """Calcula el inverso modular de a módulo m."""
+    for x in range(1, m):
+        if (a * x) % m == 0:
+            return x
+    return None
