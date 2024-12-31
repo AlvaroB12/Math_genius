@@ -1,1 +1,4 @@
+from algebra import *
+from areas_volumes import *
+from arithmetic import *
 from 
