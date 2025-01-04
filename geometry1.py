@@ -26,12 +26,6 @@ def polygon_internal_angle(n):
     """Calcula el ángulo interno de un polígono regular."""
     return (n - 2) * 180 / n
 
-def polygon_area(n_sides, side_length):
-    """Calcula el área de un polígono regular."""
-    apothem = side_length / (2 * math.tan(math.pi / n_sides))
-    perimeter = n_sides * side_length
-    return (apothem * perimeter) / 2
-
 # Geometría Espacial
 def distance_3d(p1, p2):
     """Calcula la distancia entre dos puntos en 3D."""
@@ -40,14 +34,6 @@ def distance_3d(p1, p2):
 def tetrahedron_volume(a):
     """Calcula el volumen de un tetraedro regular de arista 'a'."""
     return (a**3) / (6 * math.sqrt(2))
-
-def prism_volume(base_area, height):
-    """Calcula el volumen de un prisma."""
-    return base_area * height
-
-def pyramid_volume(base_area, height):
-    """Calcula el volumen de una pirámide."""
-    return (1 / 3) * base_area * height
 
 # Transformaciones
 def rotate_point_2d(point, angle):

@@ -1,4 +1,5 @@
 from sympy import symbols, Eq, solve, simplify, expand, factor
+import numpy as np
 
 def solve_equation(equation, variable):
     """Resuelve una ecuación algebraica."""
