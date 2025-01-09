@@ -6,19 +6,18 @@
 
 ## **Tabla de Contenidos**
 
-1. [Descripción](#-)
-2. [Instalación](#-)
-3. [Módulos y Funciones](#-)
- -  [Geometría](#-)
- -  [Áreas y Volúmenes](#-)
- -  [Trigonometría](#-)
- -  [Aritmética](#-)
- -  [Probabilidad](#-)
- -  [Estadística](#-)
- -  [Teoría de Conjuntos](#-)
-4. [Contribución](#-)
-5. [Licencia](#-)
-6. [Créditos](#-)
+1. [Descripción](#descripción)
+2. [Instalación](#instalación)
+3. [Módulos y Funciones](#módulos-y-funciones)
+ -  [Geometría](#1-geometría)
+ -  [Áreas y Volúmenes](#2-áreas-y-volúmenes)
+ -  [Trigonometría](#3-trigonometría)
+ -  [Aritmética](#4-aritmética)
+ -  [Probabilidad y Estadística](#5-probabilidad-y-estadística)
+ -  [Teoría de Conjuntos](#6-teoría-de-conjuntos)
+4. [Contribución](#contribución)
+5. [Licencia](#licencia)
+6. [Créditos](#créditos)
 
 ---
 

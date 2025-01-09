@@ -5,4 +5,6 @@ class TestSample(unittest.TestCase):
         self.assertEqual(1 + 1, 2)
 
 if __name__ == '__main__':
+    print("Running sample tests...")
+    print("====================================")
     unittest.main()

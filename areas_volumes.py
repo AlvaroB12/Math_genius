@@ -1,4 +1,4 @@
-from math  import *
+from math import *
 
 # Áreas
 def parallelogram_area(length, width):

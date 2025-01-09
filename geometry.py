@@ -1,9 +1,9 @@
-import math
+from math import *
 
 # Geometría Plana
 def distance_between_points(p1, p2):
     """Calcula la distancia entre dos puntos en un plano."""
-    return math.sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2)
+    return sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2)
 
 def midpoint(p1, p2):
     """Calcula el punto medio entre dos puntos."""
@@ -29,19 +29,19 @@ def polygon_internal_angle(n):
 # Geometría Espacial
 def distance_3d(p1, p2):
     """Calcula la distancia entre dos puntos en 3D."""
-    return math.sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2 + (p2[2] - p1[2])**2)
+    return sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2 + (p2[2] - p1[2])**2)
 
 def tetrahedron_volume(a):
     """Calcula el volumen de un tetraedro regular de arista 'a'."""
-    return (a**3) / (6 * math.sqrt(2))
+    return (a**3) / (6 * sqrt(2))
 
 # Transformaciones
 def rotate_point_2d(point, angle):
     """Rota un punto en el plano 2D alrededor del origen."""
     x, y = point
-    angle_rad = math.radians(angle)
-    new_x = x * math.cos(angle_rad) - y * math.sin(angle_rad)
-    new_y = x * math.sin(angle_rad) + y * math.cos(angle_rad)
+    angle_rad = radians(angle)
+    new_x = x * cos(angle_rad) - y * sin(angle_rad)
+    new_y = x * sin(angle_rad) + y * cos(angle_rad)
     return new_x, new_y
 
 def translate_point_2d(point, translation):

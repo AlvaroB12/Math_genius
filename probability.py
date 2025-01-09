@@ -1,6 +1,14 @@
 import numpy as np
 from scipy.stats import binom, poisson, norm
 
+def probability(event, space):
+    """Calcula la probabilidad de un evento en un espacio muestral."""
+    return len(event) / len(space)
+
+def conditional_probability(event, condition):
+    """Calcula la probabilidad condicional de un evento dado una condición."""
+    return probability(event & condition, condition)
+
 def binomial_distribution(n, p, k):
     """Calcula la probabilidad de k éxitos en una distribución binomial."""
     return binom.pmf(k, n, p)

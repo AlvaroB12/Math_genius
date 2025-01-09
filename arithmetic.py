@@ -22,6 +22,10 @@ def root(n, degree):
     """Calcula la raíz n-ésima de un número."""
     return n ** (1 / degree)
 
+def logarithm(n, base):
+    """Calcula el logaritmo de n en la base dada."""
+    return log(n, base)
+
 def gcd(a, b):
     """Calcula el máximo común divisor (MCD) de dos números."""
     while b:
