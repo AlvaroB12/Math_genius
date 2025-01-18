@@ -8,7 +8,7 @@
 
 1. [Descripción](#-)
 2. [Instalación](#-)
-3. [Módulos y Funciones](#-)
+> 3. [Módulos y Funciones](#-)
  -  [Geometría](#-)
  -  [Áreas y Volúmenes](#-)
  -  [Trigonometría](#-)
