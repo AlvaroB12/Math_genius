@@ -35,7 +35,7 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 **1. Clonar el repositorio:**
 
-    ```bash
+    ```
     git clone   https://github.com/AlvaroB12/math-genius.git
     ```  
 
