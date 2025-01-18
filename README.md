@@ -26,8 +26,8 @@
 
 Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Desde fórmulas geométricas hasta análisis estadístico, esta librería es la herramienta definitiva para resolver problemas matemáticos.
 
-- < **Limpia y Modular:** Cada módulo aborda un tema matemático específico.
-- < **Fácil de Extender:** Puedes agregar más funciones según tus necesidades.
+- > **Limpia y Modular:** Cada módulo aborda un tema matemático específico.
+- > **Fácil de Extender:** Puedes agregar más funciones según tus necesidades.
 
 ---
 
