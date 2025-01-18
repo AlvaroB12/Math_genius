@@ -6,9 +6,9 @@
 
 ## **Tabla de Contenidos**
 
-1. [Descripción](#-)
+1. [Descripción](#-descripcion)
 2. [Instalación](#-)
-> 3. [Módulos y Funciones](#-)
+3. [Módulos y Funciones](#-)
  -  [Geometría](#-)
  -  [Áreas y Volúmenes](#-)
  -  [Trigonometría](#-)
