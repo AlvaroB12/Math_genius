@@ -26,8 +26,8 @@
 
 Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Desde fórmulas geométricas hasta análisis estadístico, esta librería es la herramienta definitiva para resolver problemas matemáticos.
 
-- > **Limpia y Modular:** Cada módulo aborda un tema matemático específico.
-- > **Fácil de Extender:** Puedes agregar más funciones según tus necesidades.
+-  **Limpia y Modular:** Cada módulo aborda un tema matemático específico.
+-  **Fácil de Extender:** Puedes agregar más funciones según tus necesidades.
 
 ---
 
@@ -35,11 +35,15 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 **1. Clonar el repositorio:**
 
+    ```bash
     git clone   https://github.com/AlvaroB12/math-genius.git
+    ```  
 
-**2. Instalar dependencias:**
+<span style="color:green;"> **2. Instalar dependencias:** </span>
 
-   pip install -r requirements.txt
+   ```bash
+pip install -r requirements.txt
+   ```
 
 **3.** ¡Listo! Ahora puedes comenzar a usar Math Genius.
 
