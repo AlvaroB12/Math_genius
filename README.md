@@ -1,4 +1,4 @@
-# **Math Genius Library**
+<span style="color:red;"> # **Math Genius Library**</span>
 
 **Math Genius** es una poderosa librería de Python diseñada para realizar cálculos matemáticos avanzados de manera sencilla y eficiente. Ideal para estudiantes, académicos y desarrolladores, incluye herramientas para geometría, trigonometría, álgebra, estadística, probabilidad y mucho más.
 
