@@ -35,15 +35,15 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 **1. Clonar el repositorio:**
 
-    ```
+   ``` bash
     git clone   https://github.com/AlvaroB12/math-genius.git
-    ```  
+   ```
 
 <span style="color:green;"> **2. Instalar dependencias:** </span>
 
-   ```bash
+  ```bash
 pip install -r requirements.txt
-   ```
+  ```
 
 **3.** ¡Listo! Ahora puedes comenzar a usar Math Genius.
 
@@ -51,25 +51,23 @@ pip install -r requirements.txt
 
 ## **Módulos y Funciones**
 
-### **1. Geometría**
+> ### **1. Geometría**
 
-Funciones principales:
+ Funciones principales:
 
-#### triangle_area_by_points(p1, p2, p3):
-Calcula el área de un triángulo a partir de tres puntos en el plano.
+ #### triangle_area_by_points(p1, p2, p3):
+ Calcula el área de un triángulo a partir de tres puntos en el plano.
 
     area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
     print(area)  
 
-##### **Salida:** 6.0
-
-#### distance(p1, p2):
-Calcula la distancia entre dos puntos.
+ ##### **Salida:** 6.0
+  #### distance(p1, p2):
+ Calcula la distancia entre dos puntos.
 
     dist = distance((0, 0), (3, 4))
     print(dist)  
-
-##### **Salida:** 5.0
+  ##### **Salida:** 5.0
 
 
 
@@ -204,9 +202,9 @@ Devuelve la intersección de dos conjuntos.
 
 **2.** Crea una rama: 
 
-    ```bash
+  ```bash
     git checkout -b nueva-funcion.
-
+  ```
 
 **3.** Realiza tus cambios.
 
@@ -232,6 +230,6 @@ Creado con cariño por Álvaro Bravo López .
 ---
 
 
-    
+![https://photos.app.goo.gl/3NYEYexhieWDbxe8](https://photos.app.goo.gl/3NYEYexhieWDgbxe8)    
 
 
