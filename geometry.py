@@ -1,7 +1,7 @@
 from math import *
 
 # Geometría Plana
-def distance_between_points(p1, p2):
+def distance(p1, p2):
     """Calcula la distancia entre dos puntos en un plano."""
     return sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2)
 
@@ -12,6 +12,20 @@ def midpoint(p1, p2):
 def slope(p1, p2):
     """Calcula la pendiente de una línea que pasa por dos puntos."""
     return (p2[1] - p1[1]) / (p2[0] - p1[0])
+
+def line(p1, p2):
+    """Calcula la ecuación de la línea que pasa por dos puntos."""
+    m = slope(p1, p2)
+    b = p1[1] - m * p1[0]
+    return (m, b)
+
+def parallel(p1, p2, p3, p4):
+    """Determina si dos líneas son paralelas."""
+    return slope(p1, p2) == slope(p3, p4)
+
+def perpendicular(p1, p2, p3, p4):
+    """Determina si dos líneas son perpendiculares."""
+    return slope(p1, p2) * slope(p3, p4) == -1
 
 def circle_equation(center, radius):
     """Devuelve la ecuación de una circunferencia."""

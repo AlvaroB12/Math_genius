@@ -6,9 +6,9 @@ with open("README.md", "r") as fh:
 setup(
     name="Math_genius",
     version="0.1.0",
-    author="Álvaro Bravo López",
+    author="AlvaroB12",
     author_email="alvaritobralo@gmail.com",
-    description="Math_genius is a small python library",
+    description="A Python library for mathematics",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AlvaroB12/Math_genius",

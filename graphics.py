@@ -3,39 +3,8 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from mpl_toolkits.mplot3d import Axes3D
 from sympy import lambdify, symbols
+from .geometry import line # Importamos la función 'line' de geometry.py
 import math
-
-import math
-import matplotlib.pyplot as plt
-
-import math
-import matplotlib.pyplot as plt
-
-def midpoint(p1, p2):
-    """Calcula el punto medio entre dos puntos."""
-    return ((p1[0] + p2[0]) / 2, (p1[1] + p2[1]) / 2)
-
-def distance(p1, p2):
-    """Calcula la distancia entre dos puntos."""
-    return math.sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2)
-
-def slope(p1, p2):
-    """Calcula la pendiente de la línea que pasa por dos puntos."""
-    return (p2[1] - p1[1]) / (p2[0] - p1[0])
-
-def line(p1, p2):
-    """Calcula la ecuación de la línea que pasa por dos puntos."""
-    m = slope(p1, p2)
-    b = p1[1] - m * p1[0]
-    return (m, b)
-
-def parallel(p1, p2, p3, p4):
-    """Determina si dos líneas son paralelas."""
-    return slope(p1, p2) == slope(p3, p4)
-
-def perpendicular(p1, p2, p3, p4):
-    """Determina si dos líneas son perpendiculares."""
-    return slope(p1, p2) * slope(p3, p4) == -1
 
 def plot_points(p1, p2, title):
     """Genera un gráfico de dos puntos."""
@@ -63,43 +32,6 @@ def plot_line(p1, p2, title):
     plt.legend()
     plt.grid(True)
     plt.show()
-
-# Funciones específicas para círculos y elipses
-def midpoint_circle(p1, p2):
-    """Calcula el punto medio entre dos puntos en un círculo."""
-    return midpoint(p1, p2)
-
-def distance_circle(p1, p2):
-    """Calcula la distancia entre dos puntos en un círculo."""
-    return distance(p1, p2)
-
-def slope_circle(p1, p2):
-    """Calcula la pendiente de la línea que pasa por dos puntos en un círculo."""
-    return slope(p1, p2)
-
-def line_circle(p1, p2):
-    """Calcula la ecuación de la línea que pasa por dos puntos en un círculo."""
-    return line(p1, p2)
-
-def parallel_circle(p1, p2, p3, p4):
-    """Determina si dos líneas en un círculo son paralelas."""
-    return parallel(p1, p2, p3, p4)
-
-def perpendicular_circle(p1, p2, p3, p4):
-    """Determina si dos líneas en un círculo son perpendiculares."""
-    return perpendicular(p1, p2, p3, p4)
-
-def midpoint_ellipse(p1, p2):
-    """Calcula el punto medio entre dos puntos en una elipse."""
-    return midpoint(p1, p2)
-
-def distance_ellipse(p1, p2):
-    """Calcula la distancia entre dos puntos en una elipse."""
-    return distance(p1, p2)
-
-def slope_ellipse(p1, p2):
-    """Calcula la pendiente de la línea que pasa por dos puntos en una elipse."""
-    return slope(p1, p2)
 
 def plot_2d_function(expr, var='x', start=-10, end=10, num_points=1000, color='blue', linestyle='-', label=None):
     x = symbols(var)

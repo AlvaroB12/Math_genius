@@ -4,7 +4,7 @@ from ..geometry import *
 class TestGeometry(unittest.TestCase):
 
     def test_distance_between_points(self):
-        self.assertAlmostEqual(distance_between_points((0, 0), (3, 4)), 5.0)
+        self.assertAlmostEqual(distance((0, 0), (3, 4)), 5.0)
 
     def test_midpoint(self):
         self.assertEqual(midpoint((0, 0), (3, 4)), (1.5, 2.0))
