@@ -50,145 +50,132 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 ## **Módulos y Funciones**
 
 > ### **1. Geometría**
-
- Funciones principales:
-
- > #### triangle_area_by_points(p1, p2, p3):
-    Calcula el área de un triángulo a partir de tres puntos en el plano.
-
+> Funciones principales:
+> 
+>> #### triangle_area_by_points(p1, p2, p3):
+>> Calcula el área de un triángulo a partir de tres puntos en el plano.
+>>
     area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
     print(area)  
-
-   ##### **Salida:** 6.0
-
-  > #### distance(p1, p2):
-    Calcula la distancia entre dos puntos.
-
+>>
+>> ##### **Salida:** 6.0
+>>
+>> #### distance(p1, p2):
+>> Calcula la distancia entre dos puntos.
+>>
     dist = distance((0, 0), (3, 4))
     print(dist)  
-    ##### **Salida:** 5.0
-
-
+>>  
+>> ##### **Salida:** 5.0
 
 ---
 
 > ### **2. Áreas y Volúmenes**
-
-Funciones principales:
-
-> #### cylinder_volume(radius, height):
-  Calcula el volumen de un cilindro.
-
+> Funciones principales:
+>
+>> #### cylinder_volume(radius, height):
+>> Calcula el volumen de un cilindro.
+>>
     volume = cylinder_volume(radius=5, height=10)
     print(volume)  
-
-  ##### **Salida:** 785.398
-
-> #### sphere_volume(radius):
-  Calcula el volumen de una esfera.
-
+>>
+>> ##### **Salida:** 785.398
+>>
+>> #### sphere_volume(radius):
+>> Calcula el volumen de una esfera.
+>>
     volume = sphere_volume(radius=3)
     print(volume)  
-
-  ##### **Salida:** 113.097
-
-
+>>
+>> ##### **Salida:** 113.097
 
 ---
 
-### **3. Trigonometría**
-
-Funciones principales:
-
-#### pythagoras(a, b):
-Calcula la hipotenusa de un triángulo rectángulo.
-
+> ### **3. Trigonometría**
+>
+> Funciones principales:
+>
+>> #### pythagoras(a, b):
+>> Calcula la hipotenusa de un triángulo rectángulo.
+>>
     hypotenuse = pythagoras(a=3, b=4)
     print(hypotenuse) 
- 
-##### **Salida:** 5.0
-
-#### sin(degrees):
-Calcula el seno de un ángulo dado en grados.
-
+>> 
+>> ##### **Salida:** 5.0
+>>
+>> #### sin(degrees):
+>> Calcula el seno de un ángulo dado en grados.
+>>
     result = sin(30)
     print(result)  
-
-##### **Salida:** 0.5
-
-
+>>
+>> ##### **Salida:** 0.5
 
 ---
 
-### **4. Aritmética**
-
-Funciones principales:
-
-#### add(a, b):
-Suma dos números.
-
+> ### **4. Aritmética**
+>
+> Funciones principales:
+>
+>> #### add(a, b):
+>> Suma dos números.
+>>
     result = add(5, 3)
     print(result)  
-
-##### **Salida:** 8
-
-#### subtract(a, b):
-Resta dos números.
-
+>>
+>> ##### **Salida:** 8
+>>
+>> #### subtract(a, b):
+>> Resta dos números.
+>>
     result = subtract(10, 4)
     print(result)
-  
-##### **Salida:** 6
-
-
+>>
+>> ##### **Salida:** 6
 
 ---
 
-### **5. Probabilidad y Estadística**
-
-Funciones principales:
-
-#### mean(data):
-Calcula la media de una lista de datos.
-
+> ### **5. Probabilidad y Estadística**
+>
+> Funciones principales:
+>
+>> #### mean(data):
+>> Calcula la media de una lista de datos.
+>>
     avg = mean([1, 2, 3, 4, 5])
     print(avg)  
-
-##### **Salida:** 3.0
-
-#### standard_deviation(data):
-Calcula la desviación estándar.
-
+>>
+>> ##### **Salida:** 3.0
+>>
+>> #### standard_deviation(data):
+>> Calcula la desviación estándar.
+>>
     sd = standard_deviation([1, 2, 3, 4, 5])
     print(sd)  
-
-##### **Salida:** 1.414
-
-
+>>
+>> ##### **Salida:** 1.414
 
 ---
 
-### **6. Teoría de Conjuntos**
-
-Funciones principales:
-
-#### union(set1, set2):
-Devuelve la unión de dos conjuntos.
-
+> ### **6. Teoría de Conjuntos**
+>
+> Funciones principales:
+>
+>> #### union(set1, set2):
+>> Devuelve la unión de dos conjuntos.
+>>
     result = union({1, 2}, {2, 3})
     print(result)  
-
-##### **Salida:** {1, 2, 3}
-
-#### intersection(set1, set2):
-Devuelve la intersección de dos conjuntos.
-
+>>
+>> ##### **Salida:** {1, 2, 3}
+>>
+>> #### intersection(set1, set2):
+>> Devuelve la intersección de dos conjuntos.
+>>
     result = intersection({1, 2}, {2, 3})
     print(result)  
-
-##### **Salida:** {2}
-
-
+>>
+>> ##### **Salida:** {2}
 
 ---
 
