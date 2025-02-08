@@ -18,15 +18,14 @@
 4. [Contribución](#contribución)
 5. [Licencia](#licencia)
 6. [Créditos](#créditos)
-
 ---
 
 ## **Descripción**
 
 Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Desde fórmulas geométricas hasta análisis estadístico, esta librería es la herramienta definitiva para resolver problemas matemáticos.
 
-- **Limpia y Modular:** Cada módulo aborda un tema matemático específico.
-- **Fácil de Extender:** Puedes agregar más funciones según tus necesidades.
+-  **Limpia y Modular:** Cada módulo aborda un tema matemático específico.
+-  **Fácil de Extender:** Puedes agregar más funciones según tus necesidades.
 
 ---
 
@@ -34,11 +33,15 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 **1. Clonar el repositorio:**
 
+   ``` bash
     git clone   https://github.com/AlvaroB12/math-genius.git
+   ```
 
-**2. Instalar dependencias:**
+**2. Instalar dependencias:** 
 
-   pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
+   ```
 
 **3.** ¡Listo! Ahora puedes comenzar a usar Math Genius.
 
@@ -46,49 +49,48 @@ Math Genius te permite realizar cálculos avanzados de una manera intuitiva. Des
 
 ## **Módulos y Funciones**
 
-### **1. Geometría**
+> ### **1. Geometría**
 
-Funciones principales:
+ Funciones principales:
 
-#### triangle_area_by_points(p1, p2, p3):
-Calcula el área de un triángulo a partir de tres puntos en el plano.
+ > #### triangle_area_by_points(p1, p2, p3):
+    Calcula el área de un triángulo a partir de tres puntos en el plano.
 
     area = triangle_area_by_points((0, 0), (4, 0), (4, 3))
     print(area)  
 
-##### **Salida:** 6.0
+   ##### **Salida:** 6.0
 
-#### distance(p1, p2):
-Calcula la distancia entre dos puntos.
+  > #### distance(p1, p2):
+    Calcula la distancia entre dos puntos.
 
     dist = distance((0, 0), (3, 4))
     print(dist)  
-
-##### **Salida:** 5.0
+    ##### **Salida:** 5.0
 
 
 
 ---
 
-### **2. Áreas y Volúmenes**
+> ### **2. Áreas y Volúmenes**
 
 Funciones principales:
 
-#### cylinder_volume(radius, height):
-Calcula el volumen de un cilindro.
+> #### cylinder_volume(radius, height):
+  Calcula el volumen de un cilindro.
 
     volume = cylinder_volume(radius=5, height=10)
     print(volume)  
 
-##### **Salida:** 785.398
+  ##### **Salida:** 785.398
 
-#### sphere_volume(radius):
-Calcula el volumen de una esfera.
+> #### sphere_volume(radius):
+  Calcula el volumen de una esfera.
 
     volume = sphere_volume(radius=3)
     print(volume)  
 
-##### **Salida:** 113.097
+  ##### **Salida:** 113.097
 
 
 
@@ -199,9 +201,9 @@ Devuelve la intersección de dos conjuntos.
 
 **2.** Crea una rama: 
 
-    ```bash
+  ```bash
     git checkout -b nueva-funcion.
-
+  ```
 
 **3.** Realiza tus cambios.
 
@@ -225,8 +227,6 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 Creado con cariño por Álvaro Bravo López .
 
 ---
-
-
-    
+  
 
 
